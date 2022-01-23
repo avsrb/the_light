@@ -18,7 +18,6 @@ class ViewController: UIViewController {
         updateUI()
     }
 
-
     fileprivate func updateUI() {
         view.backgroundColor = isLightOn ? .white : .black
     }
